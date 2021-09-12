@@ -7,7 +7,7 @@ const Interface = () => {
   const [play, setPlay] = useState(false)
 
   return (
-    <div>
+    <div style={{ fontSize: 50 }}>
       <div  className='playbutton' onClick={() => setPlay(true)}><FontAwesomeIcon icon={faPlay}/>
       </div>
       <div  className='stopButton' onClick={() => setPlay(false)}><FontAwesomeIcon icon={faStop}/>
